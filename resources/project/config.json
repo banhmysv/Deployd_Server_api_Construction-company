@@ -1,0 +1,45 @@
+{
+	"type": "Collection",
+	"properties": {
+		"projectname": {
+			"name": "projectname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "projectname",
+			"order": 0
+		},
+		"value": {
+			"name": "value",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "value",
+			"order": 1
+		},
+		"dateform": {
+			"name": "dateform",
+			"type": "date",
+			"typeLabel": "date",
+			"required": true,
+			"id": "dateform",
+			"order": 2
+		},
+		"dateto": {
+			"name": "dateto",
+			"type": "date",
+			"typeLabel": "date",
+			"required": true,
+			"id": "dateto",
+			"order": 3
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "description",
+			"order": 4
+		}
+	}
+}

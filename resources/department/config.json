@@ -1,0 +1,37 @@
+{
+	"type": "Collection",
+	"properties": {
+		"departmentname": {
+			"name": "departmentname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "departmentname",
+			"order": 0
+		},
+		"phone": {
+			"name": "phone",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "phone",
+			"order": 1
+		},
+		"email": {
+			"name": "email",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "email",
+			"order": 2
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 3
+		}
+	}
+}

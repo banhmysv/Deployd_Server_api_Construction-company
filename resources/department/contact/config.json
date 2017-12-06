@@ -1,0 +1,45 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 0
+		},
+		"company": {
+			"name": "company",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "company",
+			"order": 1
+		},
+		"email": {
+			"name": "email",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "email",
+			"order": 2
+		},
+		"subject": {
+			"name": "subject",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "subject",
+			"order": 3
+		},
+		"message": {
+			"name": "message",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "message",
+			"order": 4
+		}
+	}
+}
