@@ -1,13 +1,21 @@
 {
 	"type": "Collection",
 	"properties": {
-		"departmentname": {
-			"name": "departmentname",
+		"departmentName": {
+			"name": "departmentName",
 			"type": "string",
 			"typeLabel": "string",
 			"required": true,
-			"id": "departmentname",
+			"id": "departmentName",
 			"order": 0
+		},
+		"responsibleProject": {
+			"name": "responsibleProject",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "responsibleProject",
+			"order": 1
 		},
 		"phone": {
 			"name": "phone",
@@ -15,7 +23,7 @@
 			"typeLabel": "string",
 			"required": true,
 			"id": "phone",
-			"order": 1
+			"order": 2
 		},
 		"email": {
 			"name": "email",
@@ -23,7 +31,7 @@
 			"typeLabel": "string",
 			"required": true,
 			"id": "email",
-			"order": 2
+			"order": 3
 		},
 		"description": {
 			"name": "description",
@@ -31,7 +39,7 @@
 			"typeLabel": "string",
 			"required": false,
 			"id": "description",
-			"order": 3
+			"order": 4
 		}
 	}
 }
